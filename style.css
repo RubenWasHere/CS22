@@ -1,0 +1,166 @@
+@import url('https://fonts.googleapis.com/css?family=Josefin+Sans');
+
+*{
+  margin: 0;
+  padding: 0;
+  outline: none;
+  box-sizing: border-box;
+  font-family: 'Josefin Sans', sans-serif;
+  background-color: #0C0D12;
+}
+
+html, body{
+    height: 100%;
+ }
+
+a{
+    text-decoration: none;
+    color: white;
+}
+
+.container{
+    width: 100%;
+    min-height: 100vh;
+    padding-left: 8%;
+    padding-right: 8%;
+    box-sizing: border-box;
+    height: 100%;
+    background: transparent;
+    overflow: hidden;
+  }
+  
+  .navbar{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    color: solid white;
+    height: 150px;
+  }
+  
+  .logo{
+    width: 12%;
+    cursor: pointer;
+    margin:50px 0;
+    padding-left: 10px;
+    margin-left: 15px;
+  }
+  
+  nav{
+    flex: 1;
+    text-align: right;
+  }
+  
+  nav ul li{
+    list-style: none;
+    display: inline-block;
+    margin-right: 20px;
+  }
+  
+  nav ul li a{
+    text-decoration: none;
+    color: white;
+    font-size: 18px;
+  }
+  
+  nav ul li a:hover{
+    color: #0892f4;
+  }
+
+.banner{
+    width: 80%;
+    height: 70%;
+    top: 25%;
+    position: absolute;
+    color: #fff;
+}
+
+.app-text{
+    width: 50%;
+    float: left;
+}
+
+.app-text h1{
+    font-size: 40px;
+    width: 640px;
+    position: relative;
+    margin-left: 40px;
+}
+ 
+.app-text p{
+    width: 650px;
+    font-size: 15px;
+    margin: 30px 0 30px 40px;
+    line-height: 25px;
+    color: #0892f4;
+}
+
+.app-text h3{
+    width: 650px;
+    font-size: 20px;
+    margin: 30px 0 30px 40px;
+    line-height: 25px;
+    color: #ffffff;
+}
+
+.app-pic{
+    width: 36%;
+    float: right;
+}
+
+.app-pic img{
+    margin-top: -20px;
+    padding-left: 40px;
+    width: 100%;
+    height: auto;
+}
+
+.play-btn{
+    margin-left: 40px;
+    display: inline-flex;
+}
+
+.play-btn-inner{
+    height: 50px;
+    width: 50px;
+   
+    text-align: center;
+}
+
+.play-btn-inner .fa{
+    padding: 10px 0;
+    font-size: 32px;
+    cursor: pointer;
+}
+
+small{
+    margin: auto 20px;
+    cursor: pointer;
+    font-size: 14px;
+    letter-spacing: 3px;
+}
+
+.views{
+    width: 43%;
+    float:right;
+    margin-right: -40px;
+    margin-top: 0px;
+}
+
+.views img{
+    border: 5px solid #0892f4;
+    width: 100%;
+    height: auto;
+}
+
+
+.top-5{
+    height: 100;
+    overflow: scroll;
+text-align: center;
+}
+
+.top-5 iframe{
+    border: 5px solid #0892f4;
+}
+
+

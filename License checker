@@ -1,0 +1,17 @@
+infant_age= 2
+infant_danger_temp= 38
+high_fever_temp= 39.5
+
+
+age = float(input("How old is the paitent? (years) "))
+temp = float(input("What is their tempature? (degrees celcius) "))
+
+print("paitent aged {} years, with a tempature of {} degrees celsius".format(age, temp))
+
+if age < infant_age and temp >= infant_danger_temp >= 38:
+    print ("Call a doctor ")
+
+if temp > high_fever_temp:
+    print ("High fever")
+
+
